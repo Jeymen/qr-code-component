@@ -1,49 +1,43 @@
- @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-* {
-    margin: 0;
-    padding: 1;
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-}
 body {
     background-color : hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    
 }
-.text {
-    padding: 18px;
-    margin: 0 auto;
-}
+
 .card {
     background-color: white;
-    border-radius: 18px;
-    max-height: 550px;
-    max-width: 320px;
+    border-radius: 1.125rem;
+    max-width: 20rem;
     text-align: center;
-}
-   
+    padding:0.9375em;
+}  
+
 .container{
-    max-width: 360px;
     margin: 0 auto;
 }
-.card #img {
-    max-height: 286px;
-    max-width: 286px;
-    margin: 15px;
-    border-radius: 30px;
+
+.card img {
+    display: block;
+    max-width:100%;
+    border-radius: 1.875em;
+    padding: 0em;
 }
- .card #black {
+
+.card h2{
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    padding-top: 0px; 
+    padding: 0em;
+    margin: 1.25em 0em 0em 0em;
 }
-.card #gray {
+
+.card p {
     color: hsl(220, 15%, 55%);
-    font-weight: 400p;
-    padding-top: 0px;
-    padding-bottom: 50px;
-    font-size: 15px;
-   
+    font-weight: 400;
+    font-size: 0.9375em;
+    padding: 0px;
+    margin: 1.25em 0em 2.1875em 0.9375em; 
 }
