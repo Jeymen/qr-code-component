@@ -39,7 +39,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ```css
 .card p { 
- color: hsl(220, 15%, 55%);
+    color: hsl(220, 15%, 55%);
     font-weight: 400;
     font-size: 0.9375em;
     padding: 0em;
